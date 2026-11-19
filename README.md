@@ -1,75 +1,45 @@
-# Guia de Estudos: Markdown e Controle de Versão com Git/GitHub
+# Raíssa Oliveira Godoy
 
-Documentação técnica elaborada para consolidar os conceitos de **formatação Markdown** e o **fluxo de trabalho com Git e GitHub**, conforme o material das aulas.
-
----
-
-## Sumário
-
-- [1. Visão Geral](#1-visão-geral)
-- [2. Sintaxe Markdown Aplicada ao README.md](#2-sintaxe-markdown-aplicada-ao-readmemd)
-- [3. Fluxo de Trabalho com Git e GitHub](#3-fluxo-de-trabalho-com-git-e-github)
-- [4. Referência de Comandos](#4-referência-de-comandos)
+Estudante do curso técnico em **Informática para Internet** na **Etec Fernando Prestes** (Sorocaba - SP), em formação nas áreas de desenvolvimento web, bancos de dados e controle de versão.
 
 ---
 
-## 1. Visão Geral
+## Sobre Mim
 
-O **controle de versão** permite acompanhar alterações ao longo do tempo, restaurar estados anteriores e colaborar em equipe com segurança.
-
-* **Git:** Sistema de controle de versão distribuído executado localmente, responsável por registrar modificações, gerenciar ramificações (*branches*) e manter o histórico do projeto.
-* **GitHub:** Plataforma online para hospedagem de repositórios Git e colaboração em equipe por meio de recursos como *Issues*, *Pull Requests*, *Code Review*, *Projects* e *Actions*.
-* **README.md:** Arquivo de documentação escrito em **Markdown**, renderizado automaticamente na página inicial do repositório para apresentar o projeto, instruções e referências.
+* **Nome:** Raíssa Oliveira Godoy
+* **Formação:** Ensino Técnico em Informática para Internet — Etec Fernando Prestes
+* **Localização:** Sorocaba, São Paulo
+* **Foco de estudo:** Desenvolvimento web (*front-end* e *back-end*), modelagem de bancos de dados, versionamento de código e documentação em **Markdown**
 
 ---
 
-## 2. Sintaxe Markdown Aplicada ao README.md
+## O Que Aprendi Nesta Atividade
 
-O Markdown utiliza marcações de texto simples para estruturar documentos de forma clara e legível:
+Este repositório reúne a prática de formatação em **Markdown** e os comandos fundamentais de **Git e GitHub** trabalhados em aula:
 
-* **Títulos e hierarquia:** `#` (nível 1), `##` (nível 2) e `###` (nível 3).
-* **Ênfase:** `**negrito**` para destaques, `*itálico*` para termos ou ênfase leve e `~~tachado~~` para marcações removidas.
-* **Listas:** `-` ou `*` para listas não ordenadas e `1.` para listas ordenadas.
-* **Citações e divisórias:** `>` para blocos de destaque ou observações e `---` para separar seções.
-* **Links:** `[Texto descritivo](https://www.markdownguide.org/)` para referências externas ou navegação interna.
+1. **Formatação Markdown (`README.md`):** Estruturação de títulos, listas, tabelas, citações e blocos de código para documentar projetos de forma clara.
+2. **Controle de versão local:** Inicialização de repositório (`git init`), verificação de estado (`git status`), preparação (`git add`) e registro de alterações (`git commit`).
+3. **Sincronização com o GitHub:** Conexão com o repositório remoto (`git remote add origin`), envio de alterações (`git push`), atualização (`git pull`) e uso de *branches*.
 
-### Blocos de Código e Tabelas
-
-Comandos, trechos de código e arquivos de configuração devem ser exibidos em blocos delimitados por três crases com a identificação da linguagem:
+### Exemplo de Comandos Utilizados
 
 ```bash
 git status
 git add README.md
-git commit -m "Documenta sintaxe Markdown e fluxo Git"
+git commit -m "Atualiza README.md de apresentação"
 git push origin main
 ```
 
----
-
-## 3. Fluxo de Trabalho com Git e GitHub
-
-1. **Configuração inicial:** Definir identidade do autor com `git config --global user.name` e `git config --global user.email`.
-2. **Inicialização e versionamento:** Iniciar o repositório com `git init`, verificar alterações com `git status`, preparar arquivos com `git add` e registrar o ponto no histórico com `git commit -m "mensagem"`.
-3. **Sincronização remota:** Vincular o repositório local ao GitHub (`git remote add origin <url>`), enviar alterações (`git push`) e atualizar o ambiente local (`git pull`).
-4. **Branches, merge e conflitos:** Isolar novas tarefas em *branches* (`git switch -c <branch>`), integrar mudanças com `git merge` e resolver conflitos de edição removendo as marcações `<<<<<<<`, `=======` e `>>>>>>>` antes do commit final.
-5. **Boas práticas:** Utilizar `.gitignore` para excluir arquivos temporários, dependências ou dados sensíveis; revisar commits com `git log` ou `git commit --amend` quando necessário; e utilizar *Fork* e *Pull Requests* em fluxos colaborativos.
-
-> **Observação:** Manter mensagens de *commit* objetivas e atualizar a *branch* principal antes de realizar um *merge* reduz conflitos e preserva a clareza do histórico.
+| Recurso | Sintaxe | Uso principal |
+| :--- | :--- | :--- |
+| **Título** | `#` / `##` / `###` | Organizar seções e hierarquia do texto |
+| **Ênfase** | `**texto**` / `*texto*` | Destacar palavras-chave ou termos técnicos |
+| **Código** | `` `comando` `` / ```` ``` ```` | Exibir comandos, arquivos ou trechos de código |
+| **Tabela** | `\| Col 1 \| Col 2 \|` | Apresentar dados e referências de forma estruturada |
 
 ---
 
-## 4. Referência de Comandos
+## Contato e Repositório
 
-| Comando | Finalidade |
-| :--- | :--- |
-| `git init` | Inicializa um novo repositório Git local |
-| `git status` | Exibe o estado atual dos arquivos no diretório de trabalho e *staging* |
-| `git add <arquivo \| .>` | Adiciona alterações à área de *staging* para o próximo *commit* |
-| `git commit -m "mensagem"` | Registra as alterações preparadas no histórico do repositório |
-| `git log --oneline --graph --all` | Visualiza o histórico de *commits* e a estrutura de *branches* |
-| `git push` / `git pull` | Envia *commits* ao repositório remoto / busca e integra atualizações remotas |
-
----
-
-**Autora:** Raíssa Oliveira  
-**Referências:** [Markdown Guide](https://www.markdownguide.org/) e material didático das aulas de Git e GitHub.
+* **GitHub:** [raissaoliveira4520](https://github.com/raissaoliveira4520)
+* **E-mail:** raissa.godoy008@gmail.com
